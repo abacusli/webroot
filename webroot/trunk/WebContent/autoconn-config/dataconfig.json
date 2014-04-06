@@ -1,0 +1,112 @@
+items:[ {
+	baseCls : "x-plain",
+	layout : 'form',
+	padding : '5 5 0 5',
+	plain : true,
+	items : [
+			{
+				id : 'w-conn-config-dbinfo',
+				xtype : 'fieldset',
+				title : '数据库信息',
+				collapsible : true,
+				autoHeight : true,
+				labelWidth : 80,
+				defaults : {
+					width : 265
+				},
+				defaultType : 'textfield',
+				items : [
+						{
+							id : 'w-conn-config-code',
+							xtype : 'textfield',
+							fieldLabel : '编码'
+						},
+						{
+							id : 'w-conn-config-type',
+							xtype : 'combo',
+							fieldLabel : '数据库类型',
+							store : new Ext.data.ArrayStore( {
+								autoDestroy : true,
+								fields : [ 'initials', 'fullname' ],
+								data : [ [ 'OR', 'Oracle' ], [ 'MY', 'MySQL' ],
+										[ 'SQ', 'SQL Server 2000' ] ]
+							}),
+							displayField : 'fullname',
+							typeAhead : true,
+							mode : 'local',
+							forceSelection : true,
+							triggerAction : 'all',
+							selectOnFocus : true
+						}, {
+							id : 'w-conn-config-ip',
+							xtype : 'textfield',
+							fieldLabel : 'IP地址'
+						}, {
+							id : 'w-conn-config-dbname',
+							xtype : 'textfield',
+							fieldLabel : '数据库名称'
+						}, {
+							id : 'w-conn-config-port',
+							xtype : 'textfield',
+							fieldLabel : '端口'
+						}, {
+							id : 'w-conn-config-name',
+							xtype : 'textfield',
+							fieldLabel : '用户名'
+						}, {
+							id : 'w-conn-config-password',
+							xtype : 'textfield',
+							fieldLabel : '密码',
+							inputType : "password"
+						} ]
+			}, {
+				id : 'w-conn-config-more',
+				xtype : 'fieldset',
+				title : '业务服务信息',
+				collapsible : true,
+				autoHeight : true,
+				labelWidth : 80,
+				defaults : {
+					width : 265
+				},
+				defaultType : 'textfield',
+				items : [ {
+					id : 'w-conn-config-manager',
+					fieldLabel : '负责人'
+				}, {
+					id : 'w-conn-config-system-type',
+					xtype : 'combo',
+					fieldLabel : '系统类型',
+					store : new Ext.data.ArrayStore( {
+						autoDestroy : true,
+						fields : [ 'initials', 'system-type' ],
+						autoLoad : true,
+						url : '../autoconn-config/data.jsp'
+					}),
+					displayField : 'system-type',
+					typeAhead : true,
+					mode : 'local',
+					forceSelection : true,
+					triggerAction : 'all',
+					selectOnFocus : true
+				}, {
+					id : 'w-conn-config-access-address',
+					fieldLabel : '访问地址'
+				}, {
+					id : 'w-conn-config-enable',
+					xtype : 'radiogroup',
+					fieldLabel : '是否启用',
+					width : 205,
+					items : [ {
+						boxLabel : '是',
+						inputValue : "2",
+						name : "radio",
+						checked : true
+					}, {
+						boxLabel : '否',
+						name : "radio",
+						inputValue : "1"
+					} ]
+				} ]
+			} ]
+} ]

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../../js/ext/resources/css/ext-all.css" />
+<script type="text/javascript" src="../../js/ext/adapter/ext/ext-base.js">
+	
+</script>
+<script type="text/javascript" src="../../js/ext/ext-all.js">
+	
+</script>
+
+<link href="../../lcy-frame/css/frame.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="UserRole.js">
+	
+</script>
+<script type="text/javascript" src="UserRoleTabPanel.js">
+	
+</script>
+<script type="text/javascript" src="User.js">
+	
+</script>
+<script type="text/javascript" src="RolePanel.js">
+	
+</script>
+<script type="text/javascript" src="Role.js">
+	
+</script>
+<script type="text/javascript" src="Organization.js">
+	
+</script>
+<script type="text/javascript" src="Group.js">
+	
+</script>
+<script type="text/javascript" src="RoleGroup.js">
+	
+</script>
+<script type="text/javascript">
+	Ext.onReady(function() {
+		Ext.BLANK_IMAGE_URL = '../../js/ext/resources/images/default/s.gif';
+		var ur = new UserRole();
+		var urtabp = new UserRoleTabPanel();
+		var us = new User();
+		var rop = new RolePanel();
+		var org = new Organization();
+		var gr = new Group();
+		urtabp.add(us);
+		urtabp.add(org);
+		urtabp.add(gr);
+		urtabp.add(rop);
+		ur.add(urtabp);
+		ur.show();
+	});
+</script>
+</head>
+<body>
+	<a href="check-nodes.json">check-nodes.json</a>
+</body>
+</html>

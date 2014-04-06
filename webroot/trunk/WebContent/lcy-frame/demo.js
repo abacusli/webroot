@@ -1,0 +1,5 @@
+function SupperObject() {
+	SupperObject.prototype = {
+
+	};
+}

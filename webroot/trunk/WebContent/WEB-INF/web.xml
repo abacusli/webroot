@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<context-param>
+		<param-name>jdbcConfig</param-name>
+		<param-value>jdbc.xml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>sleepTime</param-name>
+		<param-value>30</param-value>
+	</context-param>
+	<context-param>
+		<param-name>connectRetryTimes</param-name>
+		<param-value>5</param-value>
+	</context-param>
+	<context-param>
+		<param-name>logLevel</param-name>
+		<param-value>WARNING</param-value>
+	</context-param>
+	<listener>
+		<listener-class>abacus.global.ApplicationContextListener</listener-class>
+	</listener>
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<login-config>
+		<auth-method>BASIC</auth-method>
+	</login-config>
+</web-app>

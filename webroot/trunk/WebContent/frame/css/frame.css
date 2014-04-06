@@ -1,0 +1,51 @@
+﻿/**
+ *创建日期：2011-07-15
+ *作者：理朝阳
+ */
+ body {
+	background-position: 0px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:12px;
+}
+.leftTopBg {
+	background-position: 0px 0px;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;
+	height:21px; background-image:url(../images/leftTopBg.gif);
+}
+.leftDownBgAll {
+	background-position: 0px 0px;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;
+	height:25px; background-image:url(../images/leftDownBgAll.gif);border:0px solid #000;
+}
+.leftDownBgLeft {
+	 float:left; font-size:14px; font-weight:bold;background-position: 0px 0px;margin-left: 0px;margin-top: 8px;margin-right: 0px;margin-bottom: 0px;border:0px solid #000; padding-top:0px; padding-left:16px;
+	height:17px; width:100px;
+}
+leftDownBgLeft select{
+	float:left;
+}
+.leftDownBgRight {
+	 float:right;background-position: 0px 0px;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;
+	height:25px; width:45px; background-image:url(../images/leftDownBgRight.gif);
+}
+.leftDownBgRight img{
+float:right; margin-right:8px; margin-top:4px; cursor:hand;
+width:11px;
+height:11px;
+vertical-align: middle;
+}
+.stateBar{ background-image:url(../images/stateBar.gif); background-repeat:repeat-x; height:7px;}
+.leftCtrlBar{width:8px; height:100%; border:0px;  background-image:url(../images/leftCtrlBarBg.gif);}
+.info{ height:22px; width:100%; background-image:url(../images/info.gif);}
+.logoBg{ float:left; height:64px;width:100%;background-image:url(../images/logoBg.gif);}
+.logo{ float:left; height:64px; width:185px;; background-image:url(../images/logo.gif); overflow:hidden;}
+.core{ font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.core{ font-size:12px; font-family:Arial, Helvetica, sans-serif; background:#999}
+.core tr.td01{ background-color:#CFC; }
+.core tr.td00{ background-color:#9FF; }
+.core tr.td02{ background-color:#CFF; }
+.core tr.td01 td{ border:1px #999;}
+.core tr.td00 td{ border:1px #999;}
+.core tr.td02 td{ border:1px #999;}
+.core tr.tdover{ background-color:#666; cursor:default; height:20px;}

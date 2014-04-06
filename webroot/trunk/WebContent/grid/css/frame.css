@@ -1,0 +1,202 @@
+/**
+ *创建日期：2011-07-15
+ *作者：理朝阳
+ */
+body {
+	background-position: 0px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.leftTopBg {
+	background-position: 0px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 21px;
+	background-image: url(../images/leftTopBg.gif);
+}
+
+.leftDownBgAll {
+	background-position: 0px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 25px;
+	background-image: url(../images/leftDownBgAll.gif);
+	border: 0px solid #000;
+}
+
+.leftDownBgLeft {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	background-position: 0px 0px;
+	margin-left: 0px;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	border: 0px solid #000;
+	padding-top: 0px;
+	padding-left: 16px;
+	height: 17px;
+	width: 100px;
+}
+
+leftDownBgLeft select {
+	float: left;
+}
+
+.leftDownBgRight {
+	float: right;
+	background-position: 0px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 25px;
+	width: 45px;
+	background-image: url(../images/leftDownBgRight.gif);
+}
+
+.leftDownBgRight img {
+	float: right;
+	margin-right: 8px;
+	margin-top: 4px;
+	cursor: hand;
+	width: 11px;
+	height: 11px;
+	vertical-align: middle;
+}
+
+.stateBar {
+	background-image: url(../images/stateBar.gif);
+	background-repeat: repeat-x;
+	height: 7px;
+}
+
+.leftCtrlBar {
+	width: 8px;
+	height: 100%;
+	border: 0px;
+	background-image: url(../images/leftCtrlBarBg.gif);
+}
+
+.info {
+	height: 22px;
+	width: 100%;
+	background-image: url(../images/info.gif);
+}
+
+.logoBg {
+	float: left;
+	height: 64px;
+	width: 100%;
+	background-image: url(../images/logoBg.gif);
+}
+
+.logo {
+	float: left;
+	height: 64px;
+	width: 185px;;
+	background-image: url(../images/logo.gif);
+	overflow: hidden;
+}
+
+.core {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.core {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #999
+}
+
+.core tr.td01 {
+	background-color: #CFC;
+}
+
+.core tr.td00 {
+	background-color: #9FF;
+	text-align: center;
+}
+
+.core tr.td02 {
+	background-color: #CFF;
+}
+
+.core tr.td01 td {
+	border: 1px #999;
+}
+
+.core tr.td00 td {
+	border: 1px #999;
+}
+
+.core tr.td02 td {
+	border: 1px #999;
+}
+
+.core tr.tdover {
+	background-color: #666;
+	cursor: default;
+	height: 20px;
+}
+
+.folder {
+	background-image: url(../images/tree_title.jpg);
+	height: 20px;
+	font-size: 12px;
+	margin-bottom: 1px;
+}
+
+.x-tree-node-anchor {
+	font-size: 12px;
+}
+
+.x-tree-node-icon-parent {
+	display: none;
+}  /*x-tree-node-icon*/ /*
+ *FrameCenter
+ */
+.icon-add {
+	background-image: url(../images/add.gif);
+}
+
+.icon-mod {
+	background-image: url(../images/mod.gif);
+}
+
+.icon-del {
+	background-image: url(../images/del.gif);
+}
+
+.icon-exp {
+	background-image: url(../images/exp.gif);
+}
+
+.icon-imp {
+	background-image: url(../images/imp.gif);
+}
+
+.icon-print {
+	background-image: url(../images/print.gif);
+}
+
+.icon-find {
+	background-image: url(../images/find.gif);
+}
+
+.icon-refresh {
+	background-image: url(../images/refresh.gif);
+}
+.icon-report {
+	background-image: url(../images/report.gif);
+}

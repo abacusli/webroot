@@ -1,0 +1,25 @@
+{
+	results : 20,
+	rows: [
+		{id : 1, code : '410800',name : '焦作市本级',billcode : '2004',billtype : '单位可执行指标录入',yszx : '2607569230.79',fasp : '2607569230.79',difference : '0',date : '2011-07-28 08:03:45',manager : '牛孔琴'},
+		{id : 2, code : '410800',name : '焦作市本级',billcode : '2004',billtype : '单位可执行指标录入',yszx : '2607569230.79',fasp : '2597300330.79',difference : '10268900',date : '2011-07-27 16:46:54',manager : '牛孔琴'},
+		{id : 3, code : '410800',name : '焦作市本级',billcode : '2004',billtype : '单位可执行指标录入',yszx : '2607569230.79',fasp : '2607569230.79',difference : '0',date : '2011-07-29 08:27:28',manager : '牛孔琴'},
+		{id : 4, code : '410800',name : '焦作市本级',billcode : '2005',billtype : '处室待分指标录入',yszx : '3185922900',fasp : '3185922900',difference : '0',date : '2011-07-28 08:03:45',manager : '牛孔琴'},
+		{id : 5, code : '410800',name : '焦作市本级',billcode : '2005',billtype : '处室待分指标录入',yszx : '3185922900',fasp : '3185922900',difference : '0',date : '2011-07-29 08:27:28',manager : '牛孔琴'},
+		{id : 6, code : '410800',name : '焦作市本级',billcode : '2005',billtype : '处室待分指标录入',yszx : '3185922900',fasp : '3185922900',difference : '0',date : '2011-07-27 16:46:54',manager : '牛孔琴'},
+		{id : 7, code : '410800',name : '焦作市本级',billcode : '2006',billtype : '单位可执行指标调减',yszx : '-52500',fasp : '-52500',difference : '0',date : '2011-07-27 16:46:54',manager : '牛孔琴'},
+		{id : 8, code : '410800',name : '焦作市本级',billcode : '2006',billtype : '单位可执行指标调减',yszx : '-52500',fasp : '-52500',difference : '0',date : '2011-07-29 08:27:28',manager : '牛孔琴'},
+		{id : 9, code : '410800',name : '焦作市本级',billcode : '2006',billtype : '单位可执行指标调减',yszx : '-52500',fasp : '-52500',difference : '0',date : '2011-07-28 08:03:45',manager : '牛孔琴'},
+		{id : 10, code : '410800',name : '焦作市本级',billcode : '2007',billtype : '处室待分指标调减',yszx : '-235915722.79',fasp : '-235915722.79',difference : '0',date : '2011-07-29 08:27:28',manager : '牛孔琴'},
+		{id : 11, code : '410800',name : '焦作市本级',billcode : '2007',billtype : '处室待分指标调减',yszx : '-235915722.79',fasp : '-235915722.79',difference : '0',date : '2011-07-27 16:46:54',manager : '牛孔琴'},
+		{id : 12, code : '410800',name : '焦作市本级',billcode : '2007',billtype : '处室待分指标调减',yszx : '-235915722.79',fasp : '-235915722.79',difference : '0',date : '2011-07-28 08:03:45',manager : '牛孔琴'},
+		{id : 13, code : '410800',name : '焦作市本级',billcode : '2019',billtype : '处室待分指标分配录入',yszx : '774111564.31',fasp : '774111564.31',difference : '0',date : '2011-07-29 08:27:28',manager : '牛孔琴'},
+		{id : 14, code : '410800',name : '焦作市本级',billcode : '2019',billtype : '处室待分指标分配录入',yszx : '774111564.31',fasp : '773881564.31',difference : '230000',date : '2011-07-28 08:03:45',manager : '牛孔琴'},
+		{id : 15, code : '410800',name : '焦作市本级',billcode : '2019',billtype : '处室待分指标分配录入',yszx : '773881564.31',fasp : '766596604.45',difference : '7284959.86',date : '2011-07-27 16:46:54',manager : '牛孔琴'},
+		{id : 16, code : '410800',name : '焦作市本级',billcode : '3001',billtype : '正常计划',yszx : '1753604493.02',fasp : '1753604493.02',difference : '0',date : '2011-07-29 08:27:28',manager : '牛孔琴'},
+		{id : 17, code : '410800',name : '焦作市本级',billcode : '3001',billtype : '正常计划',yszx : '1751001596.75',fasp : '1751001596.75',difference : '0',date : '2011-07-28 08:03:45',manager : '牛孔琴'},
+		{id : 18, code : '410800',name : '焦作市本级',billcode : '3001',billtype : '正常计划',yszx : '1751001596.75',fasp : '1740161180.75',difference : '10840416',date : '2011-07-27 16:46:54',manager : '牛孔琴'},
+		{id : 19, code : '410800',name : '焦作市本级',billcode : '3002',billtype : '正常计划追减',yszx : '-102196170.06',fasp : '-102196170.06',difference : '0',date : '2011-07-27 16:46:54',manager : '牛孔琴3'},
+				{id : 20, code : '410800',name : '焦作市本级',billcode : '3002',billtype : '正常计划追减',yszx : '-102196170.06',fasp : '-102196170.06',difference : '0',date : '2011-07-27 16:46:54',manager : '牛孔琴1'},
+		{id : 0, code : '410800',name : '焦作市本级',billcode : '3002',billtype : '正常计划追减',yszx : '-102196170.06',fasp : '-102196170.06',difference : '0',date : '2011-07-28 08:03:45',manager : '牛孔琴2'}]
+}

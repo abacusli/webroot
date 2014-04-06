@@ -1,0 +1,207 @@
+﻿/**
+ *创建日期：2011-07-15
+ *作者：理朝阳
+ */
+/*body
+{
+margin:0;
+padding:20px;
+font:12px tahoma,宋体,sans-serif;
+}
+dt
+{
+font-size:22px;
+font-weight:bold;
+margin:0 0 0 15px;
+}
+dd
+{
+margin:0 0 0 15px;
+}
+h4
+{
+margin:0;
+padding:0;
+font-size:18px;
+text-align:center;
+}
+p
+{
+margin:0;
+padding:0 0 0 18px;
+}p a,p a:visited
+{
+color:#00f;
+background:inherit
+}
+
+*/
+
+
+/*
+#CategoryTree ul
+{
+	padding-left:17px;
+}
+
+
+
+#CategoryTree .Open img.s
+{
+background:url(images/tree_folder.gif) no-repeat 0 1px;
+}
+#CategoryTree .Close img.s
+{
+background:url(images/tree_+folder.gif) no-repeat 0 1px;
+}
+#CategoryTree .Child img.s
+{
+background:url(skin3/child.gif) no-repeat 13px 2px;
+}
+*/
+
+.MenuTree
+{
+float:left;
+width:249px;
+margin-bottom:40px;
+bottom:40px;
+}
+.MenuTreeTitle
+{
+float:left;
+width:249px;
+border-left:0px solid #99BEEF;
+border-right:0px solid #99BEEF;
+border-top:0px solid #99BEEF;
+font-weight:bold;
+font-size:14px;
+background-image:url(../images/tree_bg.jpg); background-repeat:repeat-x; height:30px;
+}
+.MenuTitle
+{ padding-top:8px; padding-left:16px;overflow:hidden;
+}
+.LeftMenuTree
+{
+float:left;
+width:249px;
+border:0px solid #99BEEF;/*99BEEF*/
+/*background:#D2E4FC;*/
+background-image:url(../images/bg.gif);
+color:inherit;
+margin:0px;
+padding:0px;
+height:inherit;
+}
+.LeftMenuTree ul
+{
+padding:0 0 0 0px;margin:0 0 0 0px;
+}
+.LeftMenuTree li
+{
+list-style:none;
+}
+.Close
+{ background-image:url(../images/tree_title.jpg); background-repeat:repeat-x;
+}
+.Close ul
+{
+display:none;
+}
+.Close img.Menu
+{
+padding-top:8px;
+padding-bottom:8px;
+width:15px;
+height:15px;
+cursor:hand;
+vertical-align:middle;
+}/**/
+.Close div
+{
+float:left;
+border:0px solid #000;
+width:2px;
+height:30px;
+}
+.Close a span
+{ cursor:hand;text-align:left;height:30px; font-size:14px; font-weight:bold; color:#000;vertical-align: middle;padding-top:8px; border:0px solid #000;width:220px; overflow:hidden;background:none;
+}
+.Open
+{ background-image:url(../images/tree_title.jpg); background-repeat:repeat-x; border:0px solid #000;
+}
+.Open ul
+{
+display:block;
+}
+.Open img.Menu
+{
+padding-top:8px;
+padding-bottom:8px;
+width:15px;
+height:15px;
+cursor:hand;
+vertical-align:middle;
+}/**/
+.Open div
+{ 
+float:left;
+border:0px solid #000;
+width:2px;
+height:30px;
+}
+.Open a span
+{ cursor:hand;text-align:left;height:30px; font-size:14px; font-weight:bold; color: #FFC;vertical-align: middle;padding-top:8px; border:0px solid #000;width:220px; overflow:hidden; background:none;
+}
+a
+{
+text-decoration:none;font-size:14px;vertical-align: middle; overflow:hidden;
+}
+a,a:visited
+{
+color:#000;
+background:inherit;
+}
+/*a:link {
+	font-size: 9pt;
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 9pt;
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: underline;
+	background-color: #99FFFF;
+}
+a:active {
+	font-size: 9pt;
+	color: #333333;
+	text-decoration: none;
+}*/
+.mouseout img
+{
+width:16px;
+height:16px;
+vertical-align: middle;
+}
+.mouseout{
+padding-left:20px; padding-top:1px; padding-bottom:1px;
+overflow:hidden;
+}
+.mouseover img
+{
+width:16px;
+height:16px;
+vertical-align: middle;
+}
+.mouseover{
+background-color: #e2E4FC/*C2D4EC*/;overflow:hidden;
+padding-left:20px;padding-top:1px; padding-bottom:1px;cursor:hand;
+}
+
+/*#topFrame{background-color: #D2E4FC;}*/
